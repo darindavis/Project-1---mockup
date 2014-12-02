@@ -10,8 +10,6 @@ body {
 }
 
 .container {
-	display: flex;
-	flex-wrap: wrap;
 	justify-content: center;
 	max-width: 960px;
 }
@@ -40,10 +38,22 @@ ul {
 	line-height: 2;
 }
 
+.col-md-5 {
+	margin-left: 3px;
+	padding-right: 11px;
+}
+
+.col-md-7 {
+	padding-left: 0;
+	padding-right: 0;
+	max-width: 547px;
+	margin-left: 5px;
+}
+
 .title {
 	/* 22px looks vertically aligned in Chrome but gives higher mismatch. */
 	margin-top: 25px;
-	margin-bottom: 17px; /* per tester */
+	margin-bottom: 19px; /* 17px per tester */
 }
 
 .article {
@@ -56,11 +66,12 @@ ul {
 
 .imgBox {
 	/* max-width: 375px; */
-	margin-bottom: 35px;
+	margin-bottom: 30px;
 }
 
 .features {
 	border: 1px solid #CCCCCC;
-	padding-top: 30px;
-	padding-left: 32px;
+	padding-top: 31px;
+	padding-left: 31px;
+	padding-bottom: 28px;
 }
