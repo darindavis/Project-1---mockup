@@ -1,2 +1,58 @@
+* {
+	/* border: 1px solid red !important; */
+}
 
+body {
+	/* A student reco'd Lucida Sans Unicode on MS Windows as an approximation of
+	Lucida Grande which is only available on Mac. */
+	font-family: 'Lucida Sans Unicode', 'Lucida Grande', sans-serif;
+	font-size: 16px;
+}
 
+.container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	max-width: 960px;
+}
+
+h1 {
+	color: #666666;
+	font-size: 49px;
+}
+
+h2 {
+	color: #F07C17;
+	margin-top: 0;
+	margin-bottom: 23px;
+	font-size: 26px;
+}
+
+p {
+	color: #666666;
+	line-height: 2.2;
+}
+
+.title {
+	/* 22px looks vertically aligned in Chrome but gives higher mismatch. */
+	margin-top: 25px;
+	margin-bottom: 10px;
+}
+
+.article {
+	margin-top: 8px;
+}
+
+.article-text {
+	padding-left: 23px;
+}
+
+.imgBox {
+	max-width: 375px;
+	margin-bottom: 35px;
+}
+
+.features {
+	border: 1px solid #CCCCCC;
+	padding-top: 30px;
+}
