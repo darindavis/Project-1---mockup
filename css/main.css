@@ -52,8 +52,9 @@ ul {
 
 .title {
 	/* 22px looks vertically aligned in Chrome but gives higher mismatch. */
-	margin-top: 25px;
+	margin-top: 27px; /* 25px per tester */
 	margin-bottom: 19px; /* 17px per tester */
+	padding-left: 7px;
 }
 
 .article {
